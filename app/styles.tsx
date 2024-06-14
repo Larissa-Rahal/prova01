@@ -47,5 +47,44 @@ export const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 17
 
+    },
+    facebookContainer:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: '15%'
+    },
+    facebookText:{
+        color:  '#399FFF',
+        paddingLeft: 8,
+        fontSize: 15        
+    },
+    divisor:{
+        marginTop: '10%',
+        flexDirection: 'row',
+        width: '90%',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    textOu:{
+        marginHorizontal: '3%'
+    },
+    divisorLine:{
+        width: '45%',
+        height: 2,
+        backgroundColor: '#EFEDED',
+        borderRadius: 5,
+    },
+    signUpContainer:{
+        flexDirection: 'row',
+        marginTop: '10%'
+    },
+    signUpText:{
+        color: '#c4c4c4',
+        paddingRight: 5
+    },
+    signUpButton:{
+        color: '@399fff',
+        fontWeight: 'bold'
     }
+
 });
