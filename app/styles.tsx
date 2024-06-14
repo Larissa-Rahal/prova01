@@ -83,7 +83,7 @@ export const styles = StyleSheet.create({
         paddingRight: 5
     },
     signUpButton:{
-        color: '@399fff',
+        color: '#399fff',
         fontWeight: 'bold'
     }
 
