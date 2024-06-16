@@ -3,17 +3,22 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFF",
+    backgroundColor: "red",
     alignItems: "center",
+  },
+  logo:{
+    tintColor: 'black',
+    height: "153%" ,
+    width: '36%'
+
   },
   header: {
     width: "100%",
-    height: 56,
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "space-between",
     paddingHorizontal: 10,
-    marginTop: 50,
+    marginTop: 20,
   },
   headerOptions: {
     alignItems: "center",
@@ -21,6 +26,10 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 10,
     gap: 20,
   },
+
+
+
+  
   stories: {
     width: "100%",
     paddingLeft: 10,
@@ -33,12 +42,16 @@ export const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: "#F7B55A",
     borderRadius: 50,
-    marginRight: 14
+    marginRight: 14,
+    padding:2
   },
   storesCardImage: {
     width: 64,
     height: 64,
   },
+
+
+
   content: {
     width: "100%",
     marginBottom: 20,

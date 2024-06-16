@@ -1,5 +1,5 @@
 import { Image, ScrollView, Text, View, FlatList } from "react-native";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/Instagram_Logo.png";
 import { Feather } from '@expo/vector-icons';
 import { Fontisto } from '@expo/vector-icons';
 import { styles } from "./stylesHome";
@@ -19,11 +19,11 @@ const DATA = [
   },
   {
     id: Math.random().toString(36).substring(2, 15),
-    pathURL: foto3,
+    pathURL: foto,
   },
   {
     id: Math.random().toString(36).substring(2, 15),
-    pathURL: foto4,
+    pathURL: foto2,
   },
   {
     id: Math.random().toString(36).substring(2, 15),
@@ -31,7 +31,7 @@ const DATA = [
   },
   {
     id: Math.random().toString(36).substring(2, 15),
-    pathURL: foto,
+    pathURL: foto2,
   },
   {
     id: Math.random().toString(36).substring(2, 15),
@@ -39,7 +39,7 @@ const DATA = [
   },
   {
     id: Math.random().toString(36).substring(2, 15),
-    pathURL: foto,
+    pathURL: foto2,
   },
   {
     id: Math.random().toString(36).substring(2, 15),
@@ -47,7 +47,7 @@ const DATA = [
   },
   {
     id: Math.random().toString(36).substring(2, 15),
-    pathURL: foto,
+    pathURL: foto2,
   },
 ];
 
@@ -56,8 +56,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        {/* <Logo /> */}
-        <Text>Instagram</Text>
+        <Image style={styles.logo} source={Logo} />
         <View style={styles.headerOptions}>
         <Feather name="heart" size={24} color="#000" />
         <Fontisto name="messenger" size={24} color=" #000" />
@@ -75,6 +74,10 @@ export default function Home() {
             </View>
           )}
       />
+      </View>
+
+      <View style={styles.content}>
+
       </View>
     </View>
   );
