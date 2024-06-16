@@ -22,12 +22,11 @@ export const styles = StyleSheet.create({
     gap: 20,
   },
   stories: {
-    height: 104,
     width: "100%",
-    flexDirection: "row",
-    alignItems: "center",
     paddingLeft: 10,
     paddingVertical: 10,
+    flexDirection: "row",
+    alignItems: "center",
   },
   storesCard: {
     alignContent: "center",
