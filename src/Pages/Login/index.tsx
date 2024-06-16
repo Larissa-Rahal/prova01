@@ -1,11 +1,11 @@
 import React from "react";
 import { Text, View, Image, TextInput, TouchableOpacity } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import Logo from "../src/assets/images/Instagram-Logo.png";
-import { styles } from "./styles";
+import Logo from "../../assets/images/Instagram-Logo.png";
+import { styles } from "./stylesLogin";
 import { FontAwesome5 } from '@expo/vector-icons';
 
-export default function App() {
+export default function Login() {
   return (
     <View style={styles.container}>
       
