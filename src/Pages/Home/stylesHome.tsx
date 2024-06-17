@@ -3,22 +3,22 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "red",
+    backgroundColor: "#fff",
     alignItems: "center",
   },
   logo:{
     tintColor: 'black',
-    height: "153%" ,
+    height: "70%" ,
     width: '36%'
-
   },
   header: {
     width: "100%",
+    height: 56,
     alignItems: "center",
     flexDirection: "row",
     justifyContent: "space-between",
     paddingHorizontal: 10,
-    marginTop: 20,
+    marginTop: 50,
   },
   headerOptions: {
     alignItems: "center",
@@ -54,7 +54,8 @@ export const styles = StyleSheet.create({
 
   content: {
     width: "100%",
-    marginBottom: 20,
+    marginTop: 15,
+    marginBottom: 10,
   },
   contentHeader: {
     height: 52,
@@ -74,10 +75,10 @@ export const styles = StyleSheet.create({
     height: 30,
     borderRadius: 50,
     borderWidth: 2,
-    borderColor: "#fff",
+    borderColor: "#F7B55A",
   },
   contentHeaderLeftText: {
-    color: "#fff",
+    color: "#000",
   },
   contentImage: {
     width: "100%",
@@ -97,7 +98,7 @@ export const styles = StyleSheet.create({
     gap: 12,
   },
   contentFooterText: {
-    color: "#fff",
+    color: "Black",
   },
   contentFooterTexts: {
     paddingLeft: 20,
