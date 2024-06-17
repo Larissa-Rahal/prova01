@@ -1,4 +1,4 @@
-import { Image, ScrollView, Text, View, FlatList, SafeAreaView } from "react-native";
+import { Image, ScrollView, Text, View, FlatList, SafeAreaView, TouchableOpacity } from "react-native";
 import Logo from "../../assets/images/Instagram_Logo.png";
 import { Feather } from '@expo/vector-icons';
 import { Fontisto } from '@expo/vector-icons';
@@ -59,8 +59,12 @@ export default function Home() {
       <View style={styles.header}>
         <Image style={styles.logo} source={Logo} />
         <View style={styles.headerOptions}>
-        <Feather name="heart" size={24} color="#000" />
-        <Fontisto name="messenger" size={24} color=" #000" />
+          <TouchableOpacity>
+            <Feather name="heart" size={24} color="#000" />
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <Fontisto name="messenger" size={24} color=" #000" />
+          </TouchableOpacity>
         </View>
       </View>
       <ScrollView
