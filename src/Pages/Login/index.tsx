@@ -4,6 +4,8 @@ import { StatusBar } from "expo-status-bar";
 import Logo from "../../assets/images/Instagram-Logo.png";
 import { styles } from "./stylesLogin";
 import { FontAwesome5 } from '@expo/vector-icons';
+import { Link } from "expo-router";
+import Home from "../Home";
 
 export default function Login() {
   return (
@@ -34,10 +36,11 @@ export default function Login() {
           <Text style={styles.forgotText}>Esqueceu sua senha?</Text>
         </TouchableOpacity>
       </View>
-
+    <Link href={'/Home'}>
       <TouchableOpacity style={styles.loginButton}>
         <Text style={styles.textButton}>Acessar</Text>
       </TouchableOpacity>
+    </Link>
 
       <TouchableOpacity style={styles.facebookContainer}>
         <FontAwesome5 name="facebook" size={25} color="#399fff"/>
