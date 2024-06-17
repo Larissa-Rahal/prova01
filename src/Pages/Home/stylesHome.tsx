@@ -26,9 +26,6 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 10,
     gap: 20,
   },
-
-
-
   
   stories: {
     width: "100%",
@@ -49,8 +46,6 @@ export const styles = StyleSheet.create({
     width: 64,
     height: 64,
   },
-
-
 
   content: {
     width: "100%",
@@ -84,6 +79,8 @@ export const styles = StyleSheet.create({
     width: "100%",
     height: 355,
   },
+
+  
   contentFooter: {},
   contentFooterOptions: {
     height: 40,
@@ -114,4 +111,5 @@ export const styles = StyleSheet.create({
   contentFooterText3: {
     fontSize: 10,
   },
+  
 });
